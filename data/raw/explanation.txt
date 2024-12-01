@@ -1,0 +1,46 @@
+# Geração de Dados Fictícios
+
+Este código foi criado para gerar um conjunto de dados fictícios que simula o comportamento de vendas de uma empresa 
+de produtos de tecnologia, a **MarketTech Solutions**.
+
+## Descrição do Código
+
+O código utiliza a biblioteca **Faker** para gerar dados fictícios e a biblioteca **Pandas** para criar um DataFrame. 
+São gerados 2.000 registros de vendas que incluem as seguintes informações:
+
+- **sale_id**: ID único da venda (gerado aleatoriamente com `Faker`).
+- **date**: Data da venda, que é aleatória dentro do último ano.
+- **product_category**: Categoria do produto (por exemplo, Smartphones, Laptops, Acessórios, etc.).
+- **sales_channel**: Canal de vendas (E-commerce ou Parceiros).
+- **units_sold**: Quantidade de unidades vendidas, que varia entre 1 e 10.
+- **revenue**: Receita total gerada pela venda, calculada como o número de unidades vendidas multiplicado pelo preço unitário.
+- **location**: Localização geográfica da venda (ex: São Paulo, Rio de Janeiro, etc.).
+
+## Estrutura do Conjunto de Dados
+
+O conjunto de dados gerado possui as seguintes colunas:
+
+- `sale_id`: Identificador único da venda
+- `date`: Data da venda
+- `product_category`: Categoria do produto
+- `sales_channel`: Canal de vendas utilizado
+- `units_sold`: Quantidade de unidades vendidas
+- `revenue`: Receita da venda
+- `location`: Localização da venda
+
+# Objetivo
+
+O objetivo deste conjunto de dados é simular transações de vendas em um contexto de marketing e e-commerce, permitindo realizar análises sobre o desempenho das campanhas de marketing, sazonalidade e comportamento de vendas.
+
+## Como Usar
+
+1. Execute o código Python para gerar o arquivo `sales_data.csv` com 2.000 registros.
+2. O arquivo gerado será salvo na pasta `data/raw/`.
+3. Utilize o conjunto de dados gerado para análise exploratória de dados (EDA) e construção de modelos preditivos.
+
+## Dependências
+
+Para executar o código, é necessário instalar as seguintes bibliotecas:
+- `pandas`
+- `numpy`
+- `faker`
