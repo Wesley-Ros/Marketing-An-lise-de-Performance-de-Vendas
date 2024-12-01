@@ -49,7 +49,7 @@ marketing-faturamento-analise/
 ├── README.md           # Descrição principal do projeto
 └── requirements.txt    # Dependências do projeto (bibliotecas)
 
-🔧 Ferramentas e Tecnologias
+## 🖥️ Stack Tecnológico 
 Python: Para análise e construção do modelo preditivo.
 Jupyter Notebooks: Para explorar e documentar os dados.
 Bibliotecas: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (listadas no requirements.txt).
